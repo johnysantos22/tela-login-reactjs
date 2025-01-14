@@ -1,10 +1,20 @@
 import React from "react";
-import { Container, FormWrapper, Title, Label, Input, Button, Footer, Link } from "../styled"
-import { useNavigate } from "react-router-dom";
+
+import { 
+    Container, 
+    FormWrapper, 
+    Title, 
+    Label, 
+    Input, 
+    Button,
+    Link,
+    Footer
+} from "./styled"
 
 
 const Login = () => {
-const navigate = useNavigate();
+
+    
     return (
         <Container>
             <FormWrapper>
@@ -18,12 +28,9 @@ const navigate = useNavigate();
                 </>
                 <Footer>
                     Não tem uma conta?{''}
-                    <Link onClick={() => navigate("/Cadastro")}> Cadastre-se</Link>
+                    <Link >Cadastre-se</Link>
                 </Footer>
             </FormWrapper>
-
-           
-
         </Container>
     )
 }
