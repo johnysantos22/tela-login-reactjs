@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import { NavLink } from 'react-router-dom';
+
 
 export const Container = styled.div`
   display: flex;
@@ -74,7 +76,7 @@ margin-top: 1rem;
 `;
 
 
-export const Link = styled.a`
+export const Link = styled.NavLink`
 color: #ffa500;
   cursor: pointer;
   font-weight: bold;

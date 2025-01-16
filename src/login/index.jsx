@@ -1,5 +1,6 @@
 import React from "react";
 
+
 import { 
     Container, 
     FormWrapper, 
@@ -28,7 +29,7 @@ const Login = () => {
                 </>
                 <Footer>
                     Não tem uma conta?{''}
-                    <Link >Cadastre-se</Link>
+                    <Link to="/register" >Cadastre-se</Link>
                 </Footer>
             </FormWrapper>
         </Container>

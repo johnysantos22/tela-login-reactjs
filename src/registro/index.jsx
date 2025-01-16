@@ -8,7 +8,8 @@ import {
     Title,
     From,
     Input,
-    Button
+    Button,
+    Link
 } from '../login/styled';
 
 const Registro = () => {
@@ -26,6 +27,7 @@ const Registro = () => {
                     <Input type="password" placeholder="Digite sua senha" />
                     <Button type="submit">Cadastrar</Button>
                 </From>
+                <Link to ="/">Voltar</Link>
             </FormWrapper>
         </Container>
     )
