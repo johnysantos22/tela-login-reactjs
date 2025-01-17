@@ -76,7 +76,7 @@ margin-top: 1rem;
 `;
 
 
-export const Link = styled.NavLink`
+export const Link = styled(NavLink)`
 color: #ffa500;
   cursor: pointer;
   font-weight: bold;

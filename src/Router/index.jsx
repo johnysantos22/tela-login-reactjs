@@ -1,9 +1,10 @@
 import Login from "../login/index.jsx"
 import Register from "../registro/index.jsx";
 import { BrowserRouter, Route, Routes } from "react-router-dom"
+import React from 'react';
 
-function App() {
 
+export const Router = () => {
   return (
     <BrowserRouter>
       <Routes>
@@ -11,7 +12,5 @@ function App() {
         <Route path="/register" element={<Register />} />
       </Routes>
     </BrowserRouter>
-  )
-}
-
-export default App
+  );
+};
